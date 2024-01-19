@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+  --back_color: bisque;
+  --col_1:#2D3250;
+  --col_2:#424769;
+  --col_3:#7077A1;
+  --col_4:#F6B17A;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_Login {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background-color: var(--col_1);
+}
+
+.box {
+  width: 400px;
+  padding: 20px 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: var(--col_3);
+  border-radius: 15px;
+  gap: 10px;
+  text-align: center;
+  height: 400px;
+
+  h1{
+    color: var(--col_4);
+  }
+  #pass,
+  #user {
+    margin-left: 10px;
+    border:10px;
+    background-color: var(--col_3);
+    color: var(--col_4);
+    cursor:text;
+    
+  }
+  #pass:focus,#user:focus{
+    outline:1px;
+  }
+  .username,.password{
+    color: var(--col_4) ;
+  }
+  #user::placeholder,#pass::placeholder{
+    color: var(--col_4);
+  }
+  .input{
+    margin-bottom: 10px;
+  }
+  #Submit_login{
+    background-color: var(--col_3);
+  }
+}
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
