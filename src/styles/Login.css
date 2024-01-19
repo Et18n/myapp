@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-:root {
-  --back_color: bisque;
+@import url("https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap");
+:root{
   --col_1:#2D3250;
   --col_2:#424769;
   --col_3:#7077A1;
@@ -60,6 +60,8 @@
   }
   #Submit_login{
     background-color: var(--col_3);
+    outline: none;
+    padding: 5px 10px;
   }
 }
 

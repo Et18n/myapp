@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-function Login() {
+function Signup() {
   
     const v=useNavigate()
     
@@ -42,7 +42,7 @@ function Login() {
                           Sign Up
                         </h3>
                       </div>
-                      <h6 className="h5 mb-0">Welcome Back</h6>
+                      <h6 className="h5 mb-0">Hello New User</h6>
                       <p className="text-muted mt-2 mb-5">
                         Enter your Username and password
                       </p>
@@ -67,7 +67,7 @@ function Login() {
                         </div>
                         <a href="/signup">
                           <button type="submit" className="btn btn-theme" onClick={handle}>
-                            Login
+                            Sign up
                           </button>
                         </a>
                       </form>
@@ -102,4 +102,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;
